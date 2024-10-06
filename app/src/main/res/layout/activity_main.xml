@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textSize="40sp"
+        android:layout_marginBottom="50dp"
+        android:textStyle="bold"
+        android:textColor="#DFE2EF"
+        android:gravity="top"
+        />
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:layout_gravity="center"
+        android:rowCount="3"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:layout_width="100dp"
+            android:id="@+id/btn1"
+            android:layout_marginStart="15dp"
+            android:onClick="check"
+            android:background="@drawable/button"
+            />
+        <Button
+            android:id="@+id/btn2"
+            android:onClick="check"
+            android:background="@drawable/button"
+
+            android:layout_marginStart="15dp"
+            />
+        <Button
+            android:id="@+id/btn3"
+            android:onClick="check"
+            android:background="@drawable/button"
+
+            android:layout_marginStart="15dp"
+            />
+        <Button
+            android:id="@+id/btn4"
+            android:onClick="check"
+            android:background="@drawable/button"
+
+            android:layout_marginStart="15dp"
+            />
+        <Button
+            android:id="@+id/btn5"
+            android:onClick="check"
+            android:background="@drawable/button"
+
+            android:layout_marginStart="15dp"
+            />
+        <Button
+            android:id="@+id/btn6"
+            android:onClick="check"
+            android:background="@drawable/button"
+
+            android:layout_marginStart="15dp"
+            />
+        <Button
+            android:id="@+id/btn7"
+            android:onClick="check"
+            android:background="@drawable/button"
+
+            android:layout_marginStart="15dp"
+            />
+        <Button
+            android:id="@+id/btn8"
+            android:onClick="check"
+            android:background="@drawable/button"
+
+            android:layout_marginStart="15dp"
+            />
+        <Button
+            android:id="@+id/btn9"
+            android:onClick="check"
+            android:background="@drawable/button"
+
+            android:layout_marginStart="15dp"
+            />
+    </GridLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:id="@+id/restart"
+        android:layout_marginTop="40dp"
+        android:text="@string/RE"
+        android:textSize="20sp"
+        android:fontFamily="serif"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/button"
+        />
+    <ImageButton
+        android:id="@+id/cross"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent" />
+    <ImageButton
+        android:id="@+id/zero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent" />
+
+
+
+</LinearLayout>
